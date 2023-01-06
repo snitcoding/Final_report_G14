@@ -1,0 +1,24 @@
+* {
+    align-items: center;
+    justify-content: center
+}
+* {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+img {
+    max-width: 100%;
+}
+* {
+    line-height: 1.5;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .demo { 
+    padding-left: 20px;
+    display: flex;
+  }
