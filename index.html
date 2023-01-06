@@ -4,29 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
     <ol type="I">
         <li>
-            <b>Team Profile</b>
+            <a href="#team profile">Team Profile</a>
+            <ol type="1">
+                <li>
+                    <a href="#Team Name - FaS">Team Name - FaS</a>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </li>
+        <li>
+            <a href="#tools">Tools</a>
+        </li>
+        <li>
+            <a href="#project overview">Project Overview</a>
+        </li>
+        <li>
+            <a href="#project description">Project Description</a>
+        </li>
+        <li>
+            <a href="#product outcomes">Product Outcomes</a>
+        </li>
+        <li>
+            <a href="#skills and jobs">Skills and Jobs</a>
+        </li>
+        <li>
+            <a href="#group reflection">Group Reflection</a>
+        </li>
+        <li>
+            <a href="#references">References</a>
+        </li>
+    </ol>
+    <ol type="I">
+        <li>
+            <b id="team profile">Team Profile</b>
         </li>
         <ol type="1">
             <li>
-                <b>Team Name</b>
+                <b id="Team Name - FaS">Team Name - FaS</b>
             </li>
             <li>
                 <b>Personal Information</b>
             </li>
             <li>
                 <b>Group process</b>
+                <p>
+                    Tasks <br>
+                    Each member was assigned different tasks based on their skills and interests. However, we always encouraged to support each other whenever there was a problem even if it was trivial. By this way, we saved good amount of time and individual efforts so our overall performance and progress could be smooth. <br>
+                    Support <br>
+                    Members could push the progress. <br>
+                    Communication <br>
+                    The Leader talks mostly, anytime when there is a problem occurs or meetings. Members were free to raise their voice. <br>
+                    Some became more active due to good motivation. <br>
+                    Silent people will always be asked to provide responses. If they cannot, they will be asked to give their reasons. <br>
+                    Decision making <br>
+                    The leader makes decisions after hearing members’ suggestions. But sometimes, members can act on their own if they backup original copies for the leader to review and they already finish their tasks.
+                </p>
             </li>
             <li>
                 <b>Career Plans</b>
+                <p>
+                    Tin and Quang have quite similar career plans in the data sector. Tin wants to be an AI engineer, whereas Quang would love to become a data engineer. Meanwhile, Quan’s dream job is still undefined but he would like to learn more about coding so it can be safe to assume that he wants to become a developer. 
+                    On the other hand, Vu has determined to pursue the paths of mobile developer or an OS manager. <br>
+                    Though our dream jobs vary, the core of these jobs is the in-depth knowledge of how operating systems work and how to translate codes into products. 
+                    The main difference among them might be the amount of coding languages required for each job, which caused trivial problems in this project that HTML/CSS is not necessary for data jobs, but it is essential for web and mobile developers. <br>
+                    Each members’ career plan is similar from the beginning to junior level where we all want to at least acquire basic principles at junior level. After that, our paths are totally different in terms of professions, but they are similar in job promotion that we all want to become profoundly senior engineers. 
+
+                </p>
             </li> 
         </ol>
         <li>
-            <b>Tools</b>
+            <b id="tools">Tools</b>
         </li>
         <ol type="1">
             <li>
@@ -49,7 +104,7 @@
             </li>    
         </ol>
         <li>
-            <b>Project Overview</b>
+            <b id="project overview">Project Overview</b>
         </li>
         <ol type="1">
             <li>
@@ -70,12 +125,12 @@
                 Our team is developing a recipe search engine that aims to provide users with the ability to convert ingredients into complete recipes. 
                 In doing so, we have identified a few competitors in the market, including Supercook and MyFridgefood.
             </p>
-            <img src="image/Picture1.png" alt="">
+            <img src="image/Picture1.png" alt="" class="center">
             <p style="text-align: center;">
                 Figure 1:
                 <a href="https://www.supercook.com" target="_blank">https://www.supercook.com</a>
             </p>
-            <img src="image/Picture2.png" alt="">
+            <img src="image/Picture2.png" alt="" class="center">
             <p style="text-align: center;">
                 Figure 2:
                 <a href="https://myfridgefood.com" target="_blank">https://myfridgefood.com</a>
@@ -123,7 +178,7 @@
             </p>
         </ol>
         <li>
-            <b>Project Description</b>
+            <b id="project description">Project Description</b>
         </li>
         <ol type="1">
             <li>
@@ -193,157 +248,181 @@
                     <p>
                         - Regularly updating the site with new recipes and features to keep the content fresh and relevant for our users. 
                     </p>
+                </ol>
+                <li>
+                    <b>Scope and Limits</b>
+                </li>
+                <p>
+                    Project scope is where we set boundaries in our project and define exactly what goals, deadlines, and project deliverables we will be working towards. It helps us remain focused and on tasks for a better outcome. [] Because of limited time and capabilities, we have narrowed down and limit our scope, but we still keep the core and essential features to be delivered in our proof of concept:
+                </p>
+                <ol type="a">
                     <li>
-                        <b>Scope and Limits</b>
+                        <b>In Scope</b> 
                     </li>
                     <p>
-                        Project scope is where we set boundaries in our project and define exactly what goals, deadlines, and project deliverables we will be working towards. It helps us remain focused and on tasks for a better outcome. [] Because of limited time and capabilities, we have narrowed down and limit our scope, but we still keep the core and essential features to be delivered in our proof of concept:
+                        <b>High priority</b>
+                        <ul>
+                            <li>The homepage</li>
+                            <p>
+                                In order to make it easy for users to quickly access a specific section of our website, we placed all of the general tabs in the upper right corner. Additionally, we provide a separate logo for our website in the left corner to impress visitors and help them remember our name. We even include a search box on the homepage to make it easier for people to look for a recipe using the items they have entered. 
+                            </p>
+                            <li>The search and input bar</li>
+                            <p>
+                                Where user can type in ingredients as input. 
+                            </p>
+                            <li>Detailed recipe page</li>
+                            <p>
+                                Which will include the recipe, ingredients needed for the recipe, step by step instruction. We also provide social media icons and the about page. 
+                            </p>
+                        </ul>
                     </p>
-                    <ol type="a">
-                        <li>
-                           <b>In Scope</b> 
-                        </li>
-                        <p>
-                            <b>High priority</b>
-                            <ul>
-                                <li>The homepage</li>
-                                <p>
-                                    In order to make it easy for users to quickly access a specific section of our website, we placed all of the general tabs in the upper right corner. Additionally, we provide a separate logo for our website in the left corner to impress visitors and help them remember our name. We even include a search box on the homepage to make it easier for people to look for a recipe using the items they have entered. 
-                                </p>
-                                <li>The search and input bar</li>
-                                <p>
-                                    Where user can type in ingredients as input. 
-                                </p>
-                                <li>Detailed recipe page</li>
-                                <p>
-                                    Which will include the recipe, ingredients needed for the recipe, step by step instruction. We also provide social media icons and the about page. 
-                                </p>
-                            </ul>
-                        </p>
-                        <p>
-                            <b>Medium priority</b>
-                            <ul>
-                                <li>Login and singup</li>
-                                <p>
-                                    Users can log in to the page if they have already created an account or sign up as a new member. But they do not need to register to access our website.
-                                </p>
-                                <li>A step-by-step cooking video inside each recipe page</li>
-                                <p>
-                                    A step-by-step cooking video will be included inside each recipe page to make it easier for users to follow
-                                </p>
-                            </ul>
-                        </p>
-                        <li>
-                            <b>Out of scope/Limits</b>
-                        </li>
-                        <p>
-                            Unfortunately, due to limitations on our time and resources, we are unable to deliver the following features at this time. However, we will carefully evaluate the feasibility of implementing these features in the future:
+                    <p>
+                        <b>Medium priority</b>
+                        <ul>
+                            <li>Login and singup</li>
                             <p>
-                                •	QR (Quick Response) code generator: Will generate a QR code that leads to the recipe link, the user can copy/share this. 
+                                Users can log in to the page if they have already created an account or sign up as a new member. But they do not need to register to access our website.
                             </p>
+                            <li>A step-by-step cooking video inside each recipe page</li>
                             <p>
-                                •	Data optimization using the concept of Artificial Intelligence 
+                                A step-by-step cooking video will be included inside each recipe page to make it easier for users to follow
                             </p>
-                            <p>
-                                •	Data sorting using the concept of Artificial Intelligence 
-                            </p>
-                            <p>
-                                •	Artificial Intelligence chat bots 
-                            </p>
-                            <p>
-                                •	Meal planner: This feature allows users to plan their meals for the week and create a shopping list based on their planned meals.
-                            </p>
-                            <p>
-                                •	Recipe substitutions: This feature would enable users to enter an ingredient they do not have and locate substitutes for it
-                            </p>
-                            <p>
-                                •	Community forum: Provide a platform for users to connect with each other and exchange cooking-related information, such as tips and recipe ideas. By fostering a sense of community, users can learn from and engage with other home cooks, as well as find support and camaraderie with those who share a love of cooking.
-                            </p>
-                            <p>
-                                •	Filter tree: The user will be able to sort out the recipe’s attributes such as regional origin, size, number, cooking time, etc. 
-                            </p>
-                            <p>
-                                •	Feedback page: The user will be able to give feedback to us
-                            </p>
-                            <p>
-                                •	Missing ingredients shop location: Once a person logs in, we can assign them with their consent so that we can suggest supermarkets nearby where they can get the ingredients for the recipe they want to make if they do not have the required amount. The user can sign out to cease that action and sign in again when they need to check for their stored recipes if they are unhappy with us keeping track of their online searches. 
-                            </p>
-                            <p>
-                                •	Bookmarks: We strongly advise users to register an account since this part was created to make it easier for customers to save their favourite recipes and locate them quickly the next time they visit our website. Also, we will collect data from the database and provide some recipes suitable for the users. 
-                            </p>
-                            <p>
-                                •	Account page: This function will allow users to manage their account. If users wish to store recipes they like or want to prepare, the functionality will also allow them to do so. 
-                            </p>
-                            <p>
-                                •	Recipe scaling: This feature would allow users to adjust the serving size of a recipe up or down to accommodate their needs
-                            </p>
-                            <p>
-                                •	Recipe nutrition information: This feature would allow users to see the nutritional information for a recipe, including the number of calories, fat, protein, and other nutrients
-                            </p>
-                            <p>
-                                •	Recipe recommendations: This feature would allow users to input their dietary preferences and the ingredients they have on hand and receive personalized recipe recommendations based on these inputs.
-                            </p>
-                            <p>
-                                •	Smart home devices integration: This would involve integrating the website with smart home devices such as smart ovens and refrigerators. This could allow users to easily access and follow recipes while cooking and could also enable the website to suggest recipes based on the ingredients detected in the user's smart refrigerator.
-                            </p>
-                        </p>  
-                    </ol>
+                        </ul>
+                    </p>
                     <li>
-                        <b>Plans and Progress</b>
+                        <b>Out of scope/Limits</b>
                     </li>
-                    <li>
-                        <b>Tools and Technology</b>
+                    <p>
+                        Unfortunately, due to limitations on our time and resources, we are unable to deliver the following features at this time. However, we will carefully evaluate the feasibility of implementing these features in the future:
                         <p>
-                            In any project, the tools and technologies used can greatly impact the success and efficiency of the project. Careful selection and use of the right tools and technologies can streamline workflows, improve collaboration, and lead to higher quality results. For KookASAP, our team used the following software and tools:
-                            <p>
-                                -	HTML for defining the structure and layout of the website. 
-                            </p>
-                            <p>
-                                -	CSS for styling the page and controlling its layout.
-                            </p>
-                            <p>
-                                -	JavaScript for adding interactivity to the page, such as handling the search form submission and modifying the page content based on user actions.
-                            </p>
-                                
+                            •	QR (Quick Response) code generator: Will generate a QR code that leads to the recipe link, the user can copy/share this. 
+                        </p>
+                        <p>
+                            •	Data optimization using the concept of Artificial Intelligence 
+                        </p>
+                        <p>
+                            •	Data sorting using the concept of Artificial Intelligence 
+                        </p>
+                        <p>
+                            •	Artificial Intelligence chat bots 
+                        </p>
+                        <p>
+                            •	Meal planner: This feature allows users to plan their meals for the week and create a shopping list based on their planned meals.
+                        </p>
+                        <p>
+                            •	Recipe substitutions: This feature would enable users to enter an ingredient they do not have and locate substitutes for it
+                        </p>
+                        <p>
+                            •	Community forum: Provide a platform for users to connect with each other and exchange cooking-related information, such as tips and recipe ideas. By fostering a sense of community, users can learn from and engage with other home cooks, as well as find support and camaraderie with those who share a love of cooking.
+                        </p>
+                        <p>
+                            •	Filter tree: The user will be able to sort out the recipe’s attributes such as regional origin, size, number, cooking time, etc. 
+                        </p>
+                        <p>
+                            •	Feedback page: The user will be able to give feedback to us
+                        </p>
+                        <p>
+                            •	Missing ingredients shop location: Once a person logs in, we can assign them with their consent so that we can suggest supermarkets nearby where they can get the ingredients for the recipe they want to make if they do not have the required amount. The user can sign out to cease that action and sign in again when they need to check for their stored recipes if they are unhappy with us keeping track of their online searches. 
+                        </p>
+                        <p>
+                            •	Bookmarks: We strongly advise users to register an account since this part was created to make it easier for customers to save their favourite recipes and locate them quickly the next time they visit our website. Also, we will collect data from the database and provide some recipes suitable for the users. 
+                        </p>
+                        <p>
+                            •	Account page: This function will allow users to manage their account. If users wish to store recipes they like or want to prepare, the functionality will also allow them to do so. 
+                        </p>
+                        <p>
+                            •	Recipe scaling: This feature would allow users to adjust the serving size of a recipe up or down to accommodate their needs
+                        </p>
+                        <p>
+                            •	Recipe nutrition information: This feature would allow users to see the nutritional information for a recipe, including the number of calories, fat, protein, and other nutrients
+                        </p>
+                        <p>
+                            •	Recipe recommendations: This feature would allow users to input their dietary preferences and the ingredients they have on hand and receive personalized recipe recommendations based on these inputs.
+                        </p>
+                        <p>
+                            •	Smart home devices integration: This would involve integrating the website with smart home devices such as smart ovens and refrigerators. This could allow users to easily access and follow recipes while cooking and could also enable the website to suggest recipes based on the ingredients detected in the user's smart refrigerator.
+                        </p>
+                    </p>  
+                </ol>
+                <li>
+                    <b>Plans and Progress</b>
+                    <p>
+                        A concrete plan is undeniably important as the starting point of any project. Hence, our team spent a week making a plan that was suitable for individual schedules and personal skills. However, we have learnt that a project's progress would never be proceeded without any mistakes no matter what scale that project might be, so we have prepared for the worst and been ready to tackle any difficulties according to our risk assessment. But then again, there had been many unexpected outcomes that took us days and nights to remediate the plan. This part will display what we have done to follow the proposal and what changes we have made for our website to work properly. <br>
+                        (Timetables)
+                    </p>
+                </li>
+                <li>
+                    <b>Tools and Technology</b>
+                    <p>
+                        In any project, the tools and technologies used can greatly impact the success and efficiency of the project. Careful selection and use of the right tools and technologies can streamline workflows, improve collaboration, and lead to higher quality results. For KookASAP, our team used the following software and tools:
+                        <p>
+                            -	HTML for defining the structure and layout of the website. 
+                        </p>
+                        <p>
+                            -	CSS for styling the page and controlling its layout.
+                        </p>
+                        <p>
+                            -	JavaScript for adding interactivity to the page, such as handling the search form submission and modifying the page content based on user actions.
+                        </p>
+                            
 
-                            </p>
-                            <p>
-                                -	Github and Github Desktop as well as Git Bash were used for managing and modifying the workflow and project during the development process. <br>
-                                    These tools were useful in helping to organize and streamline the development process, as they allowed the team to track changes, collaborate, and stay organized as they worked on the project.
-                            </p>
-                            <p>
-                                -	Photoshop version 23.5.0 was used to design the logo for the project, In order to use Photoshop, a license was required. This allowed the team to legally access and use the software for their project. The use of Photoshop allowed our team to create a high-quality logo that helped to establish the branding and visual identity of the project. 
-                            </p>
                         </p>
                         <p>
-                            The only hardware requirement was a standard laptop or similar devices.
+                            -	Github and Github Desktop as well as Git Bash were used for managing and modifying the workflow and project during the development process. <br>
+                                These tools were useful in helping to organize and streamline the development process, as they allowed the team to track changes, collaborate, and stay organized as they worked on the project.
                         </p>
                         <p>
-                            Regarding prior experience, all group members had experience with Github, Github Desktop and Git Bash. Tin and Quan had experience with HTML, CSS, and JavaScript. Our member, Tin, only had 1 month experience with Photoshop, so he learned it specifically for this project. Overall, our team was able to utilize our skills and knowledge to successfully complete the project.
+                            -	Photoshop version 23.5.0 was used to design the logo for the project, In order to use Photoshop, a license was required. This allowed the team to legally access and use the software for their project. The use of Photoshop allowed our team to create a high-quality logo that helped to establish the branding and visual identity of the project. 
                         </p>
-                    </li>
-                    <li>
-                        <b>Roles</b>
-                    </li>
-                    <li>
-                        <b>Risks</b>
-                    </li>
-                    <li>
-                        <b>Group Process and Communication</b>
-                    </li>
-                    <li>
-                        <b>Testing</b>
+                    </p>
+                    <p>
+                        The only hardware requirement was a standard laptop or similar devices.
+                    </p>
+                    <p>
+                        Regarding prior experience, all group members had experience with Github, Github Desktop and Git Bash. Tin and Quan had experience with HTML, CSS, and JavaScript. Our member, Tin, only had 1 month experience with Photoshop, so he learned it specifically for this project. Overall, our team was able to utilize our skills and knowledge to successfully complete the project.
+                    </p>
+                </li>
+                <li>
+                    <b>Roles</b>
+                </li>
+                <li>
+                    <b>Risks</b>
+                </li>
+                <li>
+                    <b>Group Process and Communication</b>
+                </li>
+                <li>
+                    <b>Testing</b>
+                    <p>
+                        Testing our website is the crucial step to ensure that the website has no problems before we present it to everyone. Firstly, we accessed the website and logged in with a guest account. After the login was complete, we took a try at identifying ingredients through the search engine on the homepage. When we entered the ingredients that we want to cook with the food, the recommendation showed all French cuisine recipe which includes our chosen ingredients. Unfortunately, the leader of our group recognized a bug in the bookmark extension and reported it to the team. The issue is the users are not able to save their loving recipes and it will take a long time to research them again. We maintenanced the website for a while and fixed the bug. It was not a serious problem, but we will get in trouble with our distinguished guests in the future if they cannot save their own recipes at favorite. 
+                    </p>
+                    <p>
+                        During the second testing time, we invited a few students in the school to be users of our website. Our purpose is to know the opinion of other users except the developers. Luckily, we received many positive comments on our project. The users told us that they could access the website immediately without any problems. They were surprised when we told them that the website was hosted on github which solves all issues of internet connection. Finally, thanks to the user's opinion, we are now extremely confident and optimistic when we introduce the project to the class. <br>
+                        <a href="https://geteasyqa.com/qa/test-website/">https://geteasyqa.com/qa/test-website/</a>
+                    </p>
+                    <p>
+                        <b>Functionality testing:</b>
                         <p>
-                            Testing our website is the crucial step to ensure that the website has no problems before we present it to everyone. Firstly, we accessed the website and logged in with a guest account. After the login was complete, we took a try at identifying ingredients through the search engine on the homepage. When we entered the ingredients that we want to cook with the food, the recommendation showed all French cuisine recipe which includes our chosen ingredients. Unfortunately, the leader of our group recognized a bug in the bookmark extension and reported it to the team. The issue is the users are not able to save their loving recipes and it will take a long time to research them again. We maintenanced the website for a while and fixed the bug. It was not a serious problem, but we will get in trouble with our distinguished guests in the future if they cannot save their own recipes at favorite. 
+                            •	<b>Links testing:</b> To ensure the link of our website is safe and access successfully, we verified the external links and internal links.   
+                                We also did the double check to confirm that links that point to the same page are not present and there aren't any faulty links. <br>
+                            •	<b>Forms testing:</b> For interactive communication with our users, we employ forms. 
+                                Therefore, we checked the valid input data set, the invalid data field input values and the options for forms when it is feasible to delete or modify data in any other way. <br>
+                            •	<b>Cookies testing:</b>Following a user's visit to your website, cookies, which are little files, are saved on their computer. 
+                                To check the cookies, we tried a website with cookies turned off and turned on. Secondly, before writing the cookie to the user's computer, we make sure it is encrypted. 
+                                On top of that, if the cookies have a set amount of time for their action, their continued activation is checked. <br>
+                            •	<b>HTML/CSS validation:</b> we checked if the website was accessible to search engines and made sure our website contains a correct site map in XML and HTML formats.
                         </p>
+                        <b>Usability testing:</b>
                         <p>
-                            During the second testing time, we invited a few students in the school to be users of our website. Our purpose is to know the opinion of other users except the developers. Luckily, we received many positive comments on our project. The users told us that they could access the website immediately without any problems. They were surprised when we told them that the website was hosted on github which solves all issues of internet connection. Finally, thanks to the user's opinion, we are now extremely confident and optimistic when we introduce the project to the class.
+                            •	<b>Navigation testing:</b> We verified that our website's pages are all clear, simple to utilize and the use of buttons, forms, and fields is practical. <br>
+                            •	<b>Content testing:</b> No grammatical or spelling errors are present, images are positioned and sized correctly. 
+                                We also checked that the site's color scheme, text sizes are optimized, and accurate information is provided in the instructions.
                         </p>
-                    </li>    
-                </ol>       
+                    </p>
+                </li>          
         </ol>
         <li>
-            <b>Project Outcomes</b>
+            <b id="product outcomes">Product Outcomes</b>
             <p>
                 Link to our project’s prototype: <a href="https://snitcoding.github.io/Kookasap/index.html" target="_blank">https://snitcoding.github.io/Kookasap/index.html</a> 
             </p>
@@ -427,7 +506,7 @@
             </ol>
         </li>
         <li>
-            <b>Skills and Jobs</b>
+            <b id="skills and jobs">Skills and Jobs</b>
             <p>
                 In the future, we have a plan of progressing our project to a higher level and increasing its influence on social media networks. Thus, we need a big quantity of employees to develop this ambitious project with us. We will be hiring for the following positions, including:
                 <ol>
@@ -538,10 +617,10 @@
             </p>
         </li>
         <li>
-            <b>Group Reflection</b>
+            <b id="group reflection">Group Reflection</b>
         </li>
         <li>
-            <b>References</b>
+            <b id="references">References</b>
         </li>
     </ol>
 </body>
