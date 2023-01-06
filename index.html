@@ -464,37 +464,43 @@
                     <p>
                         •	Signup: The user can create an account by pressing the "sign up" button. They will need to provide a username, password, and confirm their password in order to complete the process. This is only necessary if the user does not already have an account. <br>
                         <img src="image/Picture10.png" alt="">
-                        <p style="text-align: center;">Figure 10: Signup page</p>
+                        <p style="text-align: center;">Figure 10: Signup page <br>
+                            After the user created or sign in to an account, they will be directed to the new home page which look like this:
+                        </p>
+                        <img src="image/Picture10.1.png" alt="">
+                        <p style="text-align: center;">Figure 10: Homepage after login</p>
+                    </p>
+                    <p>
+                        •	Community forum: Users can learn from and engage with other home cooks, as well as find support and camaraderie in those who share a love of cooking. We have tabs to allow users to navigate posts easier. They can also create their own discussion forums to seek guidance from other users or to just simply connect with others. <br>
+                        <img src="image/Picture11.png" alt="">
+                        <img src="image/Picture12.png" alt="">
+                        <p style="text-align: center;">Figure 11 and 12: KookASAP Community Forum</p>
+                    </p>
+                    <p>
+                        •	Account page: Users can edit their basic informations and change their password or logout in this feature
+                        <img src="image/Picture13.png" alt="">
+                        <p style="text-align: center;">Figure 13: Account page</p>
                     </p>
                 </li>
                 <li>
                     <b>Applications</b>
                     <p>
-                        -	These functionalities can help solve the problem of not knowing what to cook or how to cook a particular dish. By providing a search bar and recipe recommendations based on inputted ingredients, the website helps users find meal ideas that they can make with ingredients they already have or can easily obtain. The detailed recipe pages and step-by-step cooking videos make it easy for users to follow along and successfully prepare the dish. This can save time and effort for users who may otherwise spend a lot of time trying to find and plan meals or who may feel uncertain about their cooking skills. Overall, these functionalities can make the process of finding and cooking meals more convenient and efficient for users.
-                    </p>
-                    <p>
+                        -	These functionalities can help solve the problem of not knowing what to cook or how to cook a particular dish. By providing a search bar and recipe recommendations based on inputted ingredients, the website helps users find meal ideas that they can make with ingredients they already have or can easily obtain. The detailed recipe pages and step-by-step cooking videos make it easy for users to follow along and successfully prepare the dish. This can save time and effort for users who may otherwise spend a lot of time trying to find and plan meals or who may feel uncertain about their cooking skills. Overall, these functionalities can make the process of finding and cooking meals more convenient and efficient for users. <br>
                         -	While the website is fully functional and users can start using it right away, it is still in a very early stage of development. This means that it still lacking some features or have some rough edges that will be improved upon in future updates. Despite this, the website is still useful for finding and accessing recipes and can help users plan and prepare meals more efficiently. It is always possible that there may be some bugs or issues that arise while using the website, but the development team is committed to addressing any problems and continuously improving the website's functionality.
                     </p>
                 </li>
                 <li>
                     <b>Limitations and Known Bugs</b>
                     <p>
-                        There are a few known bugs and limitations of the system that users should be aware of:
-                        <p>
-                            -	Some special cases with more than 2 ingredients may result in the website returning recipes that are unrelated to the inputted ingredients. For this issue, our development team may need to improve the search algorithm or add additional filters to better match the inputted ingredients to relevant recipes.
-                        </p>
-                        <p>
-                            -	The website's interface may not look as pleasing on smaller screens or resolutions. To address this, our designing team may need to adjust the layout or design of the website to better adapt to different screen sizes and resolutions.
-                        </p>
-                        <p>
-                            -	The recipe APIs database used by the website is limited, which means that the number of available recipes is restricted. Our development team is working on expanding the database and integrating additional APIs or source recipes from other sources.
-                        </p>
-                        <p>
-                            -	The recipe pages are still not very detailed and have a limited amount of information available. Additionally, they may not look as clean and polished as desired. To make the recipe pages more detailed and clean-looking, our development team may need to add more information to the pages and improve the design and layout. This could involve adding additional photos, nutritional information, tips, or other details to the pages.
-                        </p>
-                    <p>
-                        Overall, while the website is functional and can be useful for finding and accessing recipes, it is still in an early stage of development and may have some bugs or limitations. The specific solutions that are implemented will depend on the resources and priorities of the team.
-                    </p>    
+                        There are a few known bugs and limitations of the system that users should be aware of: <br>
+                        -	Some special cases with more than 2 ingredients may result in the website returning recipes that are unrelated to the inputted ingredients. For this issue, our development team may need to improve the search algorithm or add additional filters to better match the inputted ingredients to relevant recipes. <br>
+                        -	The website's interface may not look as pleasing on smaller screens or resolutions. To address this, our designing team may need to adjust the layout or design of the website to better adapt to different screen sizes and resolutions. <br>
+                        -	The recipe APIs database used by the website is limited, which means that the number of available recipes is restricted. Our development team is working on expanding the database and integrating additional APIs or source recipes from other sources. <br>
+                        -	The recipe pages are still not very detailed and have a limited amount of information available. Additionally, they may not look as clean and polished as desired. To make the recipe pages more detailed and clean-looking, our development team may need to add more information to the pages and improve the design and layout. This could involve adding additional photos, nutritional information, tips, or other details to the pages.
+                        -	The login, sign up, and account pages are being displayed as interfaces for demo purposes due to limitations in our knowledge about user databases and how to handle them. While these features are important for providing a smooth and secure user experience, we are unable to implement them at this time due to these limitations. In order to address the limitations in our knowledge about user databases and how to handle them, we are committed to continuing our education and training in this area. We are constantly seeking out new resources and opportunities to improve our understanding and skills in this field, and we are dedicated to finding ways to overcome these limitations. While we recognize that this may take time, we are confident that with dedication and hard work, we will be able to overcome these limitations and fully implement the login, sign up, and account pages in the future. <br>
+                        -	In addition to the login, sign up, and account pages, it is also important to note that the community forum is being displayed as a layout only due to our limitations in knowledge about user databases and how to handle them. While we believe that a community forum can be a valuable resource for users to connect with each other and share their experiences, we are unable to implement this feature at this time due to our current limitations. We are actively working to improve our knowledge and capabilities in this area so that we can fully implement the community forum in the future. <br>
+                        -	A fixed bug but worth mentioning: Error 405 when the user tried to press the login or sign up button after filled in their informations, this is due to the limitation when hosting the website using github Page since they only allow us to host static website, this means that the content of our website is served directly to users and cannot be dynamically generated or changed based on user input or server-side logic. Although we are working hard to develop and improve our website, we may be limited by time constraints and may not be able to implement certain features or hosting solutions at this time. For example, hosting a dynamic website on a server that allows POST requests or using a different method for sending data to the server such as AJAX may require a significant time investment to set up and maintain. In the meantime, we can continue to host our website on GitHub pages and make use of the available features and limitations to the best of our ability. While GitHub pages may not support all of the functionality that we would like to include on our website, it can still serve as a valuable platform for hosting and sharing our content with users. <br>
+                        Overall, while the website is functional and can be useful for finding and accessing recipes, it is still in an early stage of development and may have some bugs or limitations. The specific solutions that are implemented will depend on the resources and priorities of our team. 
                     </p>
                 </li>
                 <li>
@@ -517,37 +523,19 @@
                             <p>
                                 <b>Responsibilities:</b>
                                 <p>
-                                    •	Make up idea of new extensions for website.
-                                </p>
-                                <p>
-                                    •	Composing and reviewing website code, usually in HTML, XML, or JavaScript.
-                                </p>
-                                <p>
-                                    •	Solving issues with user experience or performance.
-                                </p>
-                                <p>
-                                    •	Working in partnership with website designers, tester.
-                                </p>
-                                <p>
-                                    •	 Debug and troubleshooting.
+                                    •	Make up idea of new extensions for website. <br>
+                                    •	Composing and reviewing website code, usually in HTML, XML, or JavaScript. <br>
+                                    •	Solving issues with user experience or performance. <br>
+                                    •	Working in partnership with website designers, tester. <br>
+                                    •	 Debug and troubleshooting.                                    
                                 </p>
                                 <b>Requirement:</b>
                                 <p>
-                                    •	Either relevant experience or a bachelor's degree in web development or a comparable discipline.
-                                </p>
-                                <p>
-                                    •	At least 1 year working experience in other website projects or companies.
-                                </p>
-                                <p>
-                                    •	Strong application programming skills and expertise.
-                                </p>
-                                <p>
-                                    •	Capable of using HTML, CSS, and JavaScript.
-                                </p>
-                                <p>
-                                    •	Competent with My SQL.
-                                </p>
-                                <p>
+                                    •	Either relevant experience or a bachelor's degree in web development or a comparable discipline. <br>
+                                    •	At least 1 year working experience in other website projects or companies. <br>
+                                    •	Strong application programming skills and expertise. <br>
+                                    •	Capable of using HTML, CSS, and JavaScript. <br>
+                                    •	Competent with My SQL. <br>
                                     •	Possibility of thriving in a high-speed environment workplace.
                                 </p>
                             </p>
@@ -560,34 +548,23 @@
                             <p>
                                 <b>Responsibilities:</b>
                                 <p>
-                                    •	Making designs for websites.
-                                </p>
-                                <p>
-                                    •	Keeping abreast with recent advances in technology and software.
-                                </p>
-                                <p>
-                                    •	Gaining knowledge of and proficiency in relevant programming languages, such as HTML and Javascript.
-                                </p>
-                                <p>
-                                    •	Establishing new sample sites.
+                                    •	Making designs for websites. <br>
+                                    •	Keeping abreast of recent advances in technology and software. <br>
+                                    •	Gaining knowledge of and proficiency in relevant programming languages, such as HTML and Javascript. <br>
+                                    •	Establishing new sample sites.                                    
                                 </p>
                             </p>
                             <p>
                                 <b>Requirement:</b>
                                 <p>
-                                    •	Experience with design software.
-                                </p>
-                                <p>
-                                    •	Understanding SEO.
-                                </p>
-                                <p>
-                                    •	Familiarity with WordPress development.
-                                </p>
-                                <p>
-                                    •	Excellent visual design sensibility.
-                                </p>
-                                <p>
-                                    •	Experience with effectively addressing the design needs of clients.
+                                    •	Bachelor’s degree of IT. <br>
+                                    •	6+ months experience in designing website. <br>
+                                    •	Experience with design software. <br>
+                                    •	Understanding SEO. <br>
+                                    •	Familiarity with WordPress development. <br>
+                                    •	Excellent visual design sensibility. <br>
+                                    •	Experience with effectively addressing the design needs of clients
+                                    
                                 </p>
                             </p>
                         </p>
@@ -599,16 +576,44 @@
                             <p>
                                 <b>Responsibilities:</b>
                                 <p>
-                                    •	Evaluating the usability of websites and reporting any bugs or usability problems to the developer team.
-                                </p>
-                                <p>
-                                    •	To ensure compatibility, several browsers and operating systems are tested.
-                                </p>
-                                <p>
-                                    •	Reporting on the functionality and user experience of websites.
-                                </p>
-                                <p>
+                                    •	Evaluating the usability of websites and reporting any bugs or usability problems to the developer team. <br>
+                                    •	To ensure compatibility, several browsers and operating systems are tested. <br>
+                                    •	Reporting on the functionality and user experience of websites. <br>
                                     •	Tracking website performance over time by collecting information on session length, page views, click rates, and other metrics.
+                                </p>
+                            </p>
+                            <p>
+                                <b>Requirement:</b>
+                                <p>
+                                    •	Bachelor’s degree of IT , computer science. <br>
+                                    •	6+ months experience in testing website. <br>
+                                    •	Programming language proficiency. <br>
+                                    •	Independent working ability
+
+                                </p>
+                            </p>
+                        </p>
+                    </li>
+                    <li>
+                        <b>Digital Marketing </b>
+                        <p>
+                            To increase our company's reach and pipeline of users, marketers oversee planning, developing, and implementing marketing strategies. The credentials, duties, and abilities necessary for success in the position should be listed in a job description for marketing.
+                            <p>
+                                <b>Responsibilities:</b>
+                                <p>
+                                    •	Identify crucial recommendations for website optimization through analysis of digital data. <br>
+                                    •	Verify that best practices are being utilized by conducting social media audits. <br>
+                                    •	Carrying out market and consumer research. <br>
+                                    •	Make sure the brand message is conveyed.
+                                </p>
+                            </p>
+                            <p>
+                                <b>Requirement:</b>
+                                <p>
+                                    •	1+ Years of Digital Marketing Experience. <br>
+                                    •	A business or marketing-related bachelor's degree. <br>
+                                    •	Abilities to solve problems. <br>
+                                    •	The capability to use content management systems.
                                 </p>
                             </p>
                         </p>
