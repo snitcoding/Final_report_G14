@@ -3,8 +3,8 @@
     justify-content: center
 }
 * {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 img {
     max-width: 100%;
@@ -18,7 +18,30 @@ img {
     margin-right: auto;
     width: 100%;
   }
-  .demo {
-    padding-left: 20px;
-    display: flex;
-  }
+  
+.list ol li {display:block;} 
+.list ol > li:first-child {counter-reset: list;} 
+.list ol > li {counter-increment: list; position: relative;} 
+.list ol > li:before {content:counters(list, ".") ". "; position: absolute; margin-right: 100%; right: 0px;} 
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 0px;
+    z-index: 0;
+    padding: 5px;
+    border-radius: 360%;
+    background: #141c38;
+    border: none;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+.back-to-top-icon {
+    width: 25px;
+    height: 25px;
+    color: white;
+}
