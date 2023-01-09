@@ -18,11 +18,11 @@ img {
     margin-right: auto;
     width: 100%;
   }
-  
-.list ol li {display:block;} 
-.list ol > li:first-child {counter-reset: list;} 
-.list ol > li {counter-increment: list; position: relative;} 
-.list ol > li:before {content:counters(list, ".") ". "; position: absolute; margin-right: 100%; right: 0px;} 
+
+.list ol li {display:block;}
+.list ol > li:first-child {counter-reset: list;}
+.list ol > li {counter-increment: list; position: relative;}
+.list ol > li:before {content:counters(list, ".") ". "; position: absolute; margin-right: 100%; right: 0px;}
 
 #myBtn {
     display: none;
