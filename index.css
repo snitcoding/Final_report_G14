@@ -23,3 +23,35 @@ img {
 .list ol > li:first-child {counter-reset: list;} 
 .list ol > li {counter-increment: list; position: relative;} 
 .list ol > li:before {content:counters(list, ".") ". "; position: absolute; margin-right: 100%; right: 0px;} 
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    position: fixed;
+      right: 2rem;
+      bottom: 2rem;
+      border-radius: 100%;
+      background: #141c38;
+      padding: 0.5rem;
+      border: none;
+      cursor: pointer;
+              }
+              
+              #myBtn:hover {
+              background-color: #555;
+              }
+              .back-to-top-icon {
+      width: 2rem;
+      height: 2rem;
+      color: black;
+      }
