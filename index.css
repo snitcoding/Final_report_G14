@@ -2,6 +2,10 @@
     align-items: center;
     justify-content: center
 }
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
 * {
     margin-left: 20px;
     margin-right: 20px;
@@ -43,7 +47,7 @@
     color: white;
 }
 hr{
-    border: 2px dashed black;
+    border: 1px dashed black;
 }
 #small{
     max-width: 40%;
